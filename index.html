@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css"/>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Cash Manager </h1>
+        <p class="description">
+            You can enter the bill amount and cash you provide to pay that bill <br>
+             we will tell you what notes you can expect as change.
+        </p>
+        <label>Bill amount:</label>
+        <input id="billAmount" type="text"/>
+        <label>Cash-Provided:</label>
+        <input id="cashprovided" type="text"/>
+        <button id="chkbtn">Check</button>
+        <p id="errormessage"></p>
+        <table class="change-table">
+            <caption>Return change</caption>
+            <tr>
+                <th>No.of notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <script src="functionality.js"></script>
+</body>
+</html>

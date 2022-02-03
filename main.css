@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color:dodgerblue;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+#chkbtn{
+    padding:0.5rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:lavender;
+}
+#billAmount{
+    padding: 0.5rem;
+    font-size: large;
+}
+#cashprovided{
+    padding: 0.5rem;
+    font-size: large;
+}
